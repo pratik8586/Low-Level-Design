@@ -21,6 +21,7 @@ public class Restaurant implements Serializable {
     private String name;
     @Column
     private boolean isActive;
-    @OneToMany(mappedBy = "restaurant", fetch = FetchType.LAZY)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinColumn(name = "restaurantId")
     private Set<Address> addresses = new HashSet<>();
 }
