@@ -1,6 +1,5 @@
 package com.restaurent.dto;
 
-import com.restaurent.domain.Address;
 import lombok.NonNull;
 
 import java.util.Set;

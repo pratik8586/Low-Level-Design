@@ -4,9 +4,10 @@ import com.restaurent.dto.RestaurantRequest;
 import com.restaurent.dto.RestaurantResponse;
 
 import java.util.List;
+import java.util.UUID;
 
 public interface RestaurantService {
     List<RestaurantResponse> findAllRestaurants();
 
-    Long createRestaurant(final RestaurantRequest restaurantRequest);
+    UUID createRestaurant(final RestaurantRequest restaurantRequest);
 }

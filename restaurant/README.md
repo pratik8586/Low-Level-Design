@@ -1,12 +1,10 @@
-# Design a restaurant system 
-
+# Design a restaurant system
 
 - where we can place order with multiple cuisines.
 - It has N number of tables.
 - It can have N number of Items to order.
 - It should allow users to give bill.
 - It should handle discount on particular cuisines or Items
-
 
 ### Expose List of API's
 
@@ -26,6 +24,5 @@
 - Optimal
 - Scalable
 - Testing
-
 
 ### Class and Entity Diagram

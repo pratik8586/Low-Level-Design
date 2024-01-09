@@ -1,4 +1,7 @@
 package com.restaurent.dto;
 
-public record AddressDto(long id, String name, String city, String state) {
+import java.util.UUID;
+
+public record AddressDto(UUID id, String addressLine1, String addressLine2, String street,
+                         String landmark, String city, String state, String country) {
 }
